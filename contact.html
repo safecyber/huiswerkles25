@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="over.html">Schilderijen</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="sierlijke-tekst">Contact</h1>
+        <img src="logo.jpg" alt="Logo" class="header-image" loading="lazy">
+    </header>
+    <main>
+        <h2>Neem contact met ons op</h2>
+        <form class="contact-form" action="#" method="POST">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Onderwerp:</label>
+            <input type="text" id="subject" name="subject" required>
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Verstuur</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sabina</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
